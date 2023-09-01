@@ -16,7 +16,7 @@ setTimeout(()=>{                              // <- A Simple Asynchronous code.
 
 const fun = async ()=>{                      //The Async keyword makes a function Asynchronous.
     
- const mypromise = new Promise(                       //Promises that make a function return something could be "what we want" or an error.
+ const mypromise = new Promise(                       //Promises that makes a function return something could be "what we want" or an error.
   (resolve,reject)=>{ 
                                               //Resolve and Rejects are two arguments passed to the Promise constructor function.
   setTimeout(()=>{                           //With Resolve we return "what we want" and with Reject we get errors.
